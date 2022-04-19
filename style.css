@@ -46,12 +46,13 @@ h1, h2{
 h1{
     font-size: 60px;
     font-weight: 900px;
+    margin-top: 0;
 
 }
 
 h2{
     font-size: 42px;
-    
+    margin-top: 0;
 }
 
 
@@ -63,6 +64,7 @@ h3{
 
 .small-text{
     font-size: 16px;
+    margin-top: 5px;
 }
 
 .name{
@@ -74,7 +76,7 @@ h3{
 .role{
     font-size: 60px;
     font-weight: bold;
-    display: inline-block;
+    display: block;
 }
 
 .links{
@@ -104,6 +106,9 @@ header{
 }
 
 
+p {
+    margin-bottom: 0;
+}
 
 
 
@@ -115,4 +120,14 @@ header
 
 section{
     padding: 100px 0;
+}
+
+
+.btn{
+    display: inline-block;
+    color:#252525;
+    background-color: #99D930;
+    padding: 10px 25px;
+    margin-top: 25px;
+    
 }
