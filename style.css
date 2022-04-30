@@ -53,12 +53,17 @@ h1{
 h2{
     font-size: 42px;
     margin-top: 0;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 
 h3{
     font-size: 36px;
-    
+    font-weight: 900;
+    margin-bottom: 0;
 }
 
 
@@ -69,14 +74,16 @@ h3{
 
 .name{
     font-size: 80px;
-    font-weight: bold;
+    font-weight: 900;
     display: inline-block;
+    color: #99d930;
 }
 
 .role{
     font-size: 60px;
     font-weight: bold;
     display: block;
+    color: #99d930;
 }
 
 .links{
@@ -130,4 +137,12 @@ section{
     padding: 10px 25px;
     margin-top: 25px;
     
+}
+
+
+
+.btn:hover,
+.btn:focus{
+    background-color: #252525;
+    color: #FFF;
 }
